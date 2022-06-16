@@ -1,24 +1,24 @@
 {
-  "name": "pravas-folio-backend",
-  "version": "1.0.0",
-  "description": "pravas-folio-backend",
-  "main": "index.js",
-  "scripts": {
-    "dev": "set NODE_ENV=development && nodemon foliobackendserver.js",
-    "start": "set NODE_ENV=production && nodemon foliobackendserver.js"
-  },
-  "author": "Pravas",
-  "license": "MIT",
-  "dependencies": {
-    "@hapi/bell": "^12.1.0",
-    "@hapi/cookie": "^11.0.1",
-    "@hapi/hapi": "^20.0.0",
-    "@hapi/inert": "^6.0.2",
-    "@hapi/joi": "^17.1.1",
-    "@hapi/vision": "^6.0.1",
-    "bcryptjs": "^2.4.3",
-    "crypto-js": "^4.0.0",
-    "firebase-admin": "^9.1.1",
-    "handlebars": "^4.7.6"
-  }
+    "name": "pravas-folio-backend",
+    "version": "1.0.0",
+    "description": "pravas-folio-backend",
+    "main": "index.js",
+    "scripts": {
+        "dev": "set NODE_ENV=development && nodemon foliobackendserver.js",
+        "start": "set NODE_ENV=production && nodemon foliobackendserver.js"
+    },
+    "author": "Pravas",
+    "license": "MIT",
+    "dependencies": {
+        "@hapi/bell": "^12.1.0",
+        "@hapi/cookie": "^11.0.1",
+        "@hapi/hapi": "^20.0.0",
+        "@hapi/inert": "^6.0.2",
+        "@hapi/joi": "^17.1.1",
+        "@hapi/vision": "^6.0.1",
+        "bcryptjs": "^2.4.3",
+        "crypto-js": "^4.0.0",
+        "firebase-admin": "^9.1.1",
+        "handlebars": "^4.7.6"
+    }
 }

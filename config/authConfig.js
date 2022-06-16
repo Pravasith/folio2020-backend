@@ -1,10 +1,9 @@
-'use strict'
-
+"use strict";
 
 const hapiAuthCookieCredentials = {
-    password: '',
-}
+    password: "",
+};
 
 module.exports = {
-    hapiAuthCookieCredentials
-}
+    hapiAuthCookieCredentials,
+};

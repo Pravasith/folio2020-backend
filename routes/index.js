@@ -1,11 +1,7 @@
-'use strict'
+"use strict";
 
-let UserDataRouter = require('./userRoute/userData')
+let UserDataRouter = require("./userRoute/userData");
 
+let APIs = [...UserDataRouter];
 
-
-let APIs = [
-    ...UserDataRouter,
-]
-
-module.exports = APIs
+module.exports = APIs;
